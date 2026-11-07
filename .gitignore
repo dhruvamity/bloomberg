@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Third-party headline text: kept local, regenerate from your own Telegram export
+data/walter_bloomberg_headlines_utc.csv
+analysis/news_classified_xau_period.csv
+analysis/news_events_impact.csv
+analysis/spikes_*.csv
+analysis/report_data.json

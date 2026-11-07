@@ -1,0 +1,454 @@
+<title>Gold News Shock Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (max 1180px) of instrument panels; summary first, then per-TF evidence, then replay + playbook */
+:root{
+  --bg:#f6f6f3; --panel:#fcfcfb; --ink:#14161a; --ink2:#4d5057; --muted:#83868c; --grid:#e3e3dd; --axis:#c4c4bc; --line:rgba(20,22,26,.10);
+  --brass:#8a6412; --brass-soft:#f1e6cc;
+  --up:#1a9e6e; --down:#d84343; --mark:#2a78d6;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300;
+  --q0:#f0efec; --q1:#cde2fb; --q2:#9ec5f4; --q3:#6da7ec; --q4:#3987e5; --q5:#256abf; --q6:#184f95; --q7:#0d366b;
+  --display:"Archivo", "Arial Narrow", system-ui, sans-serif;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1012; --panel:#18191c; --ink:#eeede9; --ink2:#c0bfb6; --muted:#8a8a85; --grid:#2a2b2e; --axis:#3a3b3e; --line:rgba(255,255,255,.10);
+  --brass:#d9ad55; --brass-soft:#2f2614;
+  --up:#22b27c; --down:#e66767; --mark:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300;
+  --q0:#25262a; --q1:#13294a; --q2:#163a68; --q3:#184f95; --q4:#1c5cab; --q5:#2a78d6; --q6:#5598e7; --q7:#9ec5f4;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1012; --panel:#18191c; --ink:#eeede9; --ink2:#c0bfb6; --muted:#8a8a85; --grid:#2a2b2e; --axis:#3a3b3e; --line:rgba(255,255,255,.10);
+  --brass:#d9ad55; --brass-soft:#2f2614;
+  --up:#22b27c; --down:#e66767; --mark:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300;
+  --q0:#25262a; --q1:#13294a; --q2:#163a68; --q3:#184f95; --q4:#1c5cab; --q5:#2a78d6; --q6:#5598e7; --q7:#9ec5f4;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px;display:grid;gap:36px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(30px,5vw,48px);font-weight:800;line-height:1.05}
+h2{font-size:24px;font-weight:700}
+h3{font-size:16px;font-weight:700}
+p{margin:0;max-width:72ch}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--brass)}
+.sub{color:var(--ink2)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+header{display:grid;gap:12px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.findings{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.finding{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px;display:grid;gap:6px;align-content:start}
+.finding .big{font-family:var(--display);font-size:34px;font-weight:800;line-height:1}
+.finding .vs{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.finding p{font-size:14px;color:var(--ink2)}
+section{display:grid;gap:14px}
+.sec-head{display:grid;gap:6px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px;min-width:0}
+.controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:5px;overflow:hidden;flex-wrap:wrap}
+.seg button{font:500 13px var(--body);background:transparent;color:var(--ink2);border:0;padding:6px 11px;cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--panel)}
+.seg button:focus-visible,.evlist button:focus-visible{outline:2px solid var(--mark);outline-offset:-2px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 8px;text-align:right;white-space:nowrap}
+th{font:600 11.5px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--axis)}
+td:first-child,th:first-child{text-align:left}
+tbody tr{border-bottom:1px solid var(--grid)}
+tbody tr.base{font-style:italic;color:var(--ink2)}
+td.cell{font-family:var(--mono);font-variant-numeric:tabular-nums;border-left:2px solid var(--panel)}
+.catname{display:flex;gap:8px;align-items:center;white-space:normal;min-width:220px}
+.dot{width:9px;height:9px;border-radius:50%;flex:none}
+.pill{font:500 11px var(--mono);padding:1px 6px;border-radius:3px;background:var(--brass-soft);color:var(--brass);white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--ink2);align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:12px;height:12px;border-radius:2px;display:inline-block}
+.ramp{display:inline-flex;gap:2px}.ramp i{width:16px;height:10px;display:inline-block}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+@media (max-width:820px){.grid2{grid-template-columns:1fr}}
+svg text{fill:var(--muted);font-family:var(--mono);font-size:11px}
+.replay{display:grid;grid-template-columns:320px minmax(0,1fr);gap:14px}
+@media (max-width:820px){.replay{grid-template-columns:1fr}}
+.evlist{max-height:560px;overflow:auto;display:grid;gap:2px;align-content:start;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.evlist button{all:unset;cursor:pointer;display:grid;gap:3px;padding:9px 11px;border-bottom:1px solid var(--grid)}
+.evlist button[aria-current="true"]{background:var(--brass-soft)}
+.evlist .t{font-family:var(--mono);font-size:11.5px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.evlist .h{font-size:13px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.chartbox{position:relative}
+canvas{width:100%;display:block}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.12);border-radius:5px;padding:7px 9px;font:12px var(--mono);color:var(--ink);white-space:nowrap;z-index:5}
+.evhead{display:grid;gap:6px;margin-bottom:10px}
+.evhead .hl{font-size:15px;font-weight:500}
+.kv{display:flex;flex-wrap:wrap;gap:4px 16px;font:12.5px var(--mono);color:var(--ink2)}
+.kv b{color:var(--ink);font-weight:500}
+.heat{display:grid;grid-template-columns:38px repeat(24,minmax(0,1fr));gap:2px;font:10.5px var(--mono);color:var(--muted)}
+.heat div{aspect-ratio:1/1;border-radius:2px;min-width:0}
+.heat .lab{aspect-ratio:auto;display:flex;align-items:center;justify-content:center}
+.rules{display:grid;gap:10px;counter-reset:r}
+.rule{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;align-items:start;padding:12px 0;border-bottom:1px solid var(--grid)}
+.rule::before{counter-increment:r;content:counter(r);font:700 18px var(--display);color:var(--brass)}
+.rule p{color:var(--ink2)}.rule b{color:var(--ink)}
+.note{font-size:13px;color:var(--muted)}
+details summary{cursor:pointer;font-weight:600}
+details{font-size:14px;color:var(--ink2)}
+details ul{padding-left:18px;display:grid;gap:4px;max-width:80ch}
+.files{font:12.5px var(--mono);color:var(--ink2);display:grid;gap:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">XAUUSDT perpetual · Binance · news impact study</div>
+  <h1>Gold News Shock Map</h1>
+  <p class="sub">Every headline from the Walter Bloomberg channel, lined up minute-by-minute against Binance XAUUSDT on 1m, 5m, 15m, 1h, 4h and 1D. The question: which news turns a reasonable gold trade into a stop-out, and how often.</p>
+  <div class="meta" id="meta"></div>
+</header>
+
+<section>
+  <div class="findings" id="findings"></div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Impact by news type</div>
+    <h2>Which headlines break gold trades</h2>
+    <p class="sub">Each row is a news type; each column is a timeframe measured from the headline. Darker cells mean a bigger disturbance. The italic row is 20,000 random minutes, which is what "no news" looks like.</p>
+  </div>
+  <div class="panel" style="display:grid;gap:12px">
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Metric" id="metricSeg"></div>
+    </div>
+    <p class="note" id="metricNote"></p>
+    <div class="scroll"><table id="catTable"></table></div>
+    <div class="legend" id="catLegend"></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Spike candles, by timeframe</div>
+    <h2>How many of the biggest candles had news behind them</h2>
+    <p class="sub">A spike candle is one whose high-low range is in the top 1% (1m–15m) or top 5% (1h–1D) relative to the trailing 7-day normal for that timeframe. We then check whether a market-moving headline landed in or just before it, and compare that with random candles of the same size window.</p>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <h3 style="margin-bottom:8px">Spike candles with a headline vs random candles</h3>
+      <div class="legend" style="margin-bottom:6px"><span><i class="sw" style="background:var(--s1)"></i>Spike candles</span><span><i class="sw" style="background:var(--axis)"></i>Random candles (base rate)</span></div>
+      <div class="chartbox" id="liftBox"></div>
+    </div>
+    <div class="panel">
+      <h3 style="margin-bottom:8px">15m spikes by hour: with vs without a headline</h3>
+      <div class="legend" style="margin-bottom:6px"><span><i class="sw" style="background:var(--s1)"></i>Headline found</span><span><i class="sw" style="background:var(--s4)"></i>No headline</span></div>
+      <div class="chartbox" id="hourBox"></div>
+      <p class="note" style="margin-top:6px">Hours in UTC; IST is UTC+5:30. The no-headline cluster at 22:00–01:00 UTC is the daily futures reopen and Asian open, where liquidity is thin.</p>
+    </div>
+  </div>
+  <div class="panel" style="display:grid;gap:10px">
+    <div class="controls"><span class="note">Largest spike candles on</span><div class="seg" role="group" aria-label="Timeframe" id="spikeSeg"></div></div>
+    <div class="scroll"><table id="spikeTable"></table></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Replay</div>
+    <h2>The 40 worst trade-killers</h2>
+    <p class="sub">Ranked by how abnormal the 5m, 15m and 1h ranges were, weighted by how much price swept both directions. Pick an event to replay price from 30 minutes before to 3 hours after the headline. Coincidental stock and crypto headlines are excluded from this list.</p>
+  </div>
+  <div class="replay">
+    <div class="evlist" id="evList" role="list"></div>
+    <div class="panel">
+      <div class="evhead" id="evHead"></div>
+      <div class="controls" style="margin-bottom:8px"><span class="note">Candles</span><div class="seg" role="group" aria-label="Replay timeframe" id="repSeg"></div></div>
+      <div class="chartbox" id="repBox"><canvas id="rep" height="380"></canvas><div class="tip" id="repTip" hidden></div></div>
+      <div class="legend" style="margin-top:8px"><span><i class="sw" style="background:var(--brass)"></i>Headline time</span><span><i class="sw" style="background:var(--muted)"></i>Price at headline</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">When it happens</div>
+    <h2>The clock of gold volatility</h2>
+    <p class="sub">Average 1-minute range in basis points by weekday and UTC hour. The bright columns line up with US data releases (12:30–14:00 UTC) and FOMC (18:00–19:00 UTC).</p>
+  </div>
+  <div class="panel" style="display:grid;gap:10px">
+    <div class="heat" id="heat"></div>
+    <div class="legend"><span>Lower</span><span class="ramp" id="heatRamp"></span><span>Higher 1m range</span><span class="note" id="heatScale"></span></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">Over time</div>
+    <h2>Where the shocks came from, month by month</h2>
+    <p class="sub">Count of news events whose 15m range ran at least 3× normal, grouped into six families. Above: daily close, with the 40 replay events marked.</p>
+  </div>
+  <div class="panel" style="display:grid;gap:10px">
+    <div class="chartbox" id="priceBox"></div>
+    <div class="chartbox" id="monthBox"></div>
+    <div class="legend" id="famLegend"></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">What to do about it</div>
+    <h2>Playbook from the numbers</h2>
+  </div>
+  <div class="panel"><div class="rules" id="rules"></div></div>
+</section>
+
+<section>
+  <details class="panel">
+    <summary>Method and caveats</summary>
+    <ul style="margin-top:10px">
+      <li>Price: Binance USDⓈ-M XAUUSDT perpetual, 1-minute klines from listing (11 Dec 2025) to today. 5m/15m/1h/4h/1D bars are resampled from the same 1m data. It trades 24/7, including weekends.</li>
+      <li>News: every message in the export, timestamps converted from IST to UTC. Headlines within 3 minutes of each other are merged into one event; the event takes the most market-relevant category among its headlines.</li>
+      <li>Anchor: the open of the minute before the headline, because the channel usually posts 10–60 seconds after the release itself.</li>
+      <li><b>Range vs normal</b>: the high-low range over the window after the headline, divided by the median range of the same window length over the trailing 7 days (20 periods for 1D).</li>
+      <li><b>Same-hour adjusted</b>: the same range divided by the median range at that exact UTC minute over the previous 20 days. It removes the "US session is always busy" effect.</li>
+      <li><b>Both stops hit</b>: from the anchor price, would a stop 1× ATR(14) above and another 1× ATR(14) below both be touched within the next 3 bars of that timeframe? That is the case where a long and a short both lose.</li>
+      <li><b>Shock rate</b>: share of events whose range ran at least 3× normal.</li>
+      <li>Categories come from keyword rules, so some headlines are mislabeled (for example, "Iran" news that is really about oil). Co-occurring headlines are not proof of cause; the lift against random candles is the honest test.</li>
+      <li>The channel is a relay. On the biggest unscheduled moves price often starts moving before the headline appears, which shows up as an elevated "pre-headline" range.</li>
+    </ul>
+  </details>
+</section>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const TF = ["1m","5m","15m","1h","4h","1d"], TFL = {"1m":"1m","5m":"5m","15m":"15m","1h":"1h","4h":"4h","1d":"1D"};
+const pct = v => v==null?"–":(v*100).toFixed(0)+"%";
+const x2 = v => v==null?"–":v.toFixed(2)+"×";
+const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtN = n => n.toLocaleString("en-US");
+const toIST = s => { const d=new Date(s.replace(" ","T")+":00Z"); d.setUTCMinutes(d.getUTCMinutes()+330); return d.toISOString().slice(11,16); };
+
+// families (6, fixed order) for color identity
+const FAM = [
+ {name:"US data & Fed", c:"--s1", cats:["US CPI/PPI inflation","US jobs (NFP/claims/JOLTS/ADP)","US growth data (GDP/ISM/retail/PMI)","FOMC decision / Powell presser","Fed speakers","Fed chair / Fed independence politics"]},
+ {name:"Iran / Middle East", c:"--s2", cats:["Iran / Middle East war","Oil / energy"]},
+ {name:"Other geopolitics", c:"--s3", cats:["Russia / Ukraine","Venezuela / LatAm / other geo"]},
+ {name:"Trade, China & Trump", c:"--s4", cats:["Tariffs / trade war","US-China","Trump (other statements)"]},
+ {name:"Gold, rates & FX", c:"--s5", cats:["Gold/CB fundamentals (PBOC, ETF, CB buying)","Gold price report (lagging)","US fiscal / Treasury / shutdown / debt","Dollar / FX","Other central banks (ECB/BOJ/BOE/SNB)"]},
+ {name:"Other", c:"--s6", cats:["Equities / earnings / corporate","Crypto","Other / misc"]},
+];
+const famOf = cat => FAM.find(f=>f.cats.includes(cat)) || FAM[5];
+
+// ---------- header ----------
+const M = D.meta, SS = D.spike_stats, SV = D.sched_vs_unsched;
+document.getElementById('meta').innerHTML = [
+  `${M.start.slice(0,10)} → ${M.end.slice(0,10)}`, `${fmtN(M.n_news)} headlines in window`, `${fmtN(M.n_events)} news events`, `${fmtN(M.n_1m)} one-minute candles`, `last $${M.last_price.toFixed(2)}`
+].map(s=>`<span>${s}</span>`).join("");
+
+const cs = Object.fromEntries(D.cat_summary.map(r=>[r.cat,r]));
+const B = SV.baseline, S = SV.scheduled, U = SV.unscheduled_geo_politics;
+const cpi = cs["US CPI/PPI inflation"], fomc = cs["FOMC decision / Powell presser"];
+document.getElementById('findings').innerHTML = [
+  {big:x2(S.mult_15m), vs:`random minute: ${x2(B.mult_15m)}`, t:`Scheduled US data and FOMC: the 15 minutes after the release ran ${x2(S.mult_15m)} the normal range. ${pct(S.shock_15m)} of releases hit 3× or more.`},
+  {big:pct(fomc.dsweep_15m), vs:`random minute: ${pct(B.dsweep_15m)}`, t:`FOMC: share of decisions and pressers where a 1×ATR stop on <b>both</b> sides got hit within 45 minutes on 15m. CPI/PPI: ${pct(cpi.dsweep_15m)}. Being right on direction didn't save the trade.`},
+  {big:pct(SS["15m"].pct_spikes_with_news), vs:`random 15m candle: ${pct(SS["15m"].base_rate_news)}`, t:`Share of the biggest 15m candles that had a market-moving headline in or just before them. On 1h it's ${pct(SS["1h"].pct_spikes_with_news)} vs ${pct(SS["1h"].base_rate_news)}.`},
+  {big:pct(SS["1m"].pct_spikes_with_news), vs:`random 1m candle: ${pct(SS["1m"].base_rate_news)}`, t:`1m spikes are almost never news. They come from thin liquidity, not headlines, so stops sized off the 1m chart get taken by noise.`},
+].map(f=>`<div class="finding"><div class="big">${f.big}</div><div class="vs">${f.vs}</div><p>${f.t}</p></div>`).join("");
+
+// ---------- category table ----------
+const METRICS = {
+  mult:{label:"Range vs normal", fmt:x2, lo:1, hi:3, note:"Median high-low range after the headline, as a multiple of the trailing 7-day normal for that window. 1.00× = an ordinary minute."},
+  todmult:{label:"Same-hour adjusted", fmt:x2, lo:1, hi:2, note:"Same range, compared with the same UTC minute on the previous 20 days. Removes the US-session effect, leaving the excess the news itself caused."},
+  dsweep:{label:"Both stops hit", fmt:pct, lo:.04, hi:.2, note:"Share of events where a stop 1×ATR(14) above and another 1×ATR(14) below were BOTH hit within the next 3 bars of that timeframe. A long and a short would both have lost."},
+  shock:{label:"Shock rate (≥3×)", fmt:pct, lo:.04, hi:.4, note:"Share of events where the range ran at least 3× normal on that timeframe."},
+};
+let metric = "mult";
+const ramp = ["--q0","--q1","--q2","--q3","--q4","--q5","--q6","--q7"];
+function shade(v, lo, hi){ if(v==null) return ["var(--q0)","var(--ink)"]; const t=Math.max(0,Math.min(1,(v-lo)/(hi-lo))); const i=Math.round(t*7); return [`var(${ramp[i]})`, i>=4?"#fff":"var(--ink)"]; }
+const darkMode = () => matchMedia('(prefers-color-scheme: dark)').matches && document.documentElement.dataset.theme!=="light" || document.documentElement.dataset.theme==="dark";
+function shadeText(i){ return darkMode() ? (i>=5?"#0b0b0b":"var(--ink)") : (i>=4?"#fff":"var(--ink)"); }
+function renderCat(){
+  const m = METRICS[metric];
+  document.getElementById('metricNote').textContent = m.note;
+  const rows = D.cat_summary.slice().sort((a,b)=>{ if(a.cat.startsWith("—")) return 1; if(b.cat.startsWith("—")) return -1; return (b[metric+"_15m"]??0)-(a[metric+"_15m"]??0); });
+  let h = `<thead><tr><th>News type</th><th>Events</th>${TF.map(t=>`<th>${TFL[t]}</th>`).join("")}<th>Median 15m range</th></tr></thead><tbody>`;
+  for(const r of rows){
+    const base = r.cat.startsWith("—"), f = famOf(r.cat);
+    h += `<tr class="${base?"base":""}"><td><div class="catname">${base?"":`<i class="dot" style="background:var(${f.c})"></i>`}${esc(base?"Random minute (no news filter)":r.cat)}${["US CPI/PPI inflation","US jobs (NFP/claims/JOLTS/ADP)","US growth data (GDP/ISM/retail/PMI)","FOMC decision / Powell presser"].includes(r.cat)?' <span class="pill">scheduled</span>':''}${r.cat.includes("lagging")?' <span class="pill">reaction, not cause</span>':''}</div></td><td class="mono">${fmtN(r.events)}</td>`;
+    for(const t of TF){ const v=r[`${metric}_${t}`]; const tt=Math.max(0,Math.min(1,(v-m.lo)/(m.hi-m.lo))); const i=Math.round(tt*7); h += `<td class="cell" style="background:var(${ramp[i]});color:${shadeText(i)}" title="${esc(r.cat)} · ${TFL[t]}: ${m.fmt(v)}">${m.fmt(v)}</td>`; }
+    h += `<td class="mono">$${r.move15_usd.toFixed(2)}</td></tr>`;
+  }
+  document.getElementById('catTable').innerHTML = h + "</tbody>";
+  document.getElementById('catLegend').innerHTML = `<span>${m.fmt(m.lo)}</span><span class="ramp">${ramp.map(v=>`<i style="background:var(${v})"></i>`).join("")}</span><span>${m.fmt(m.hi)} or more</span><span class="note">Sorted by the 15m column. Dot = news family.</span>`;
+}
+document.getElementById('metricSeg').innerHTML = Object.entries(METRICS).map(([k,v])=>`<button type="button" data-m="${k}" aria-pressed="${k===metric}">${v.label}</button>`).join("");
+document.getElementById('metricSeg').addEventListener('click',e=>{const b=e.target.closest('button'); if(!b) return; metric=b.dataset.m; [...e.currentTarget.children].forEach(x=>x.setAttribute('aria-pressed',x===b)); renderCat();});
+renderCat();
+
+// ---------- generic svg helpers + tooltip ----------
+function tipFor(box){ let t=box.querySelector('.tip'); if(!t){t=document.createElement('div'); t.className='tip'; t.hidden=true; box.appendChild(t);} return t; }
+function showTip(box, html, x, y){ const t=tipFor(box); t.innerHTML=html; t.hidden=false; const bw=box.clientWidth; const tw=t.offsetWidth; t.style.left=Math.max(0,Math.min(bw-tw, x+12))+"px"; t.style.top=Math.max(0,y-40)+"px"; }
+function hideTip(box){ tipFor(box).hidden=true; }
+
+// grouped bars: spikes with news vs base rate
+function renderLift(){
+  const box=document.getElementById('liftBox'), W=Math.max(320, box.clientWidth), H=230, pl=36, pr=8, pt=10, pb=26;
+  const iw=W-pl-pr, ih=H-pt-pb, gw=iw/TF.length, bw=Math.min(26,(gw-14)/2);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="Spike candles with news vs random base rate by timeframe">`;
+  for(const v of [0,.25,.5,.75,1]){ const y=pt+ih*(1-v); s+=`<line x1="${pl}" x2="${W-pr}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${pl-6}" y="${y+4}" text-anchor="end">${v*100}%</text>`; }
+  TF.forEach((t,i)=>{ const st=SS[t]; const cx=pl+gw*i+gw/2; const vals=[[st.pct_spikes_with_news,"var(--s1)","Spike candles"],[st.base_rate_news,"var(--axis)","Random candles"]];
+    vals.forEach(([v,c,l],j)=>{ const x=cx-bw-1+j*(bw+2), h=ih*v, y=pt+ih-h; s+=`<path d="M${x},${pt+ih} V${y+4} Q${x},${y} ${x+4},${y} H${x+bw-4} Q${x+bw},${y} ${x+bw},${y+4} V${pt+ih} Z" fill="${c}" data-tip="${TFL[t]} · ${l}: <b>${pct(v)}</b>${j===0?`<br>${fmtN(st.spikes)} spike candles`:''}"/><rect x="${x-2}" y="${pt}" width="${bw+4}" height="${ih}" fill="transparent" data-tip="${TFL[t]} · ${l}: <b>${pct(v)}</b>${j===0?`<br>${fmtN(st.spikes)} spike candles · lift ${(st.pct_spikes_with_news/st.base_rate_news).toFixed(1)}×`:''}"/>`; });
+    s+=`<text x="${cx}" y="${H-8}" text-anchor="middle">${TFL[t]}</text>`;
+  });
+  s+=`<line x1="${pl}" x2="${W-pr}" y1="${pt+ih}" y2="${pt+ih}" stroke="var(--axis)"/></svg>`;
+  box.innerHTML=s; bindTips(box);
+}
+function bindTips(box){
+  box.querySelector('svg').addEventListener('mousemove',e=>{ const el=e.target.closest('[data-tip]'); const r=box.getBoundingClientRect(); if(el) showTip(box, el.dataset.tip, e.clientX-r.left, e.clientY-r.top); else hideTip(box); });
+  box.querySelector('svg').addEventListener('mouseleave',()=>hideTip(box));
+}
+// stacked hour bars for 15m spikes
+function renderHour(){
+  const box=document.getElementById('hourBox'), W=Math.max(320, box.clientWidth), H=230, pl=30, pr=6, pt=10, pb=26;
+  const all=SS["15m"].by_hour_utc||{}, nn=D.spike_nonews_by_hour["15m"]||{};
+  const vals=[...Array(24).keys()].map(h=>{const a=all[h]||0, n=nn[h]||0; return [a-n,n];});
+  const mx=Math.ceil(Math.max(...vals.map(v=>v[0]+v[1]))/10)*10||10;
+  const iw=W-pl-pr, ih=H-pt-pb, gw=iw/24, bw=Math.max(4,gw-3);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="15m spike candles by UTC hour">`;
+  for(let v=0; v<=mx; v+=mx/4){ const y=pt+ih*(1-v/mx); s+=`<line x1="${pl}" x2="${W-pr}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${pl-5}" y="${y+4}" text-anchor="end">${v}</text>`; }
+  vals.forEach(([w,n],h)=>{ const x=pl+gw*h+1.5; const hw=ih*w/mx, hn=ih*n/mx; const y1=pt+ih-hw, y2=y1-hn-(n&&w?2:0);
+    if(w) s+=`<rect x="${x}" y="${y1}" width="${bw}" height="${hw}" fill="var(--s1)" rx="${n?0:2}"/>`;
+    if(n) s+=`<rect x="${x}" y="${y2}" width="${bw}" height="${hn}" fill="var(--s4)" rx="2"/>`;
+    s+=`<rect x="${x-1}" y="${pt}" width="${gw}" height="${ih}" fill="transparent" data-tip="${String(h).padStart(2,'0')}:00 UTC (${toIST("2000-01-01 "+String(h).padStart(2,'0')+":00")} IST)<br>with headline <b>${w}</b> · none <b>${n}</b>"/>`;
+    if(h%3===0) s+=`<text x="${x+bw/2}" y="${H-8}" text-anchor="middle">${String(h).padStart(2,'0')}</text>`;
+  });
+  s+=`<line x1="${pl}" x2="${W-pr}" y1="${pt+ih}" y2="${pt+ih}" stroke="var(--axis)"/></svg>`;
+  box.innerHTML=s; bindTips(box);
+}
+
+// spike table
+let spikeTF="15m";
+function renderSpikes(){
+  const rows=D.spikes[spikeTF]||[];
+  let h=`<thead><tr><th>Candle open (UTC)</th><th>IST</th><th>Range</th><th>× normal</th><th>Move</th><th>Wick share</th><th style="text-align:left">Headline in window</th></tr></thead><tbody>`;
+  for(const r of rows){ const f=famOf(r.news_cat); const none=r.news_cat==="NO NEWS FOUND";
+    h+=`<tr><td class="mono">${r.bar_open}</td><td class="mono">${toIST(r.bar_open)}</td><td class="mono">$${r.range_usd.toFixed(2)}</td><td class="mono">${r.range_x_normal.toFixed(1)}×</td><td class="mono" style="color:${r.ret_pct>=0?'var(--up)':'var(--down)'}">${r.ret_pct>=0?'▲':'▼'} ${Math.abs(r.ret_pct).toFixed(2)}%</td><td class="mono">${pct(r.wick_frac)}</td><td style="text-align:left;white-space:normal;min-width:320px">${none?'<span class="note">No market-moving headline found</span>':`<span class="catname" style="min-width:0"><i class="dot" style="background:var(${f.c})"></i><span><span class="note">${esc(r.news_cat)}</span><br>${esc(r.top_headline)}</span></span>`}</td></tr>`; }
+  document.getElementById('spikeTable').innerHTML=h+"</tbody>";
+}
+document.getElementById('spikeSeg').innerHTML=TF.map(t=>`<button type="button" data-t="${t}" aria-pressed="${t===spikeTF}">${TFL[t]}</button>`).join("");
+document.getElementById('spikeSeg').addEventListener('click',e=>{const b=e.target.closest('button'); if(!b) return; spikeTF=b.dataset.t; [...e.currentTarget.children].forEach(x=>x.setAttribute('aria-pressed',x===b)); renderSpikes();});
+renderSpikes();
+
+// ---------- replay ----------
+let cur=0, repTF=1;
+const evList=document.getElementById('evList');
+evList.innerHTML=D.top_events.map((e,i)=>{const f=famOf(e.cat); return `<button type="button" role="listitem" data-i="${i}" aria-current="${i===0}"><span class="t"><i class="dot" style="background:var(${f.c})"></i>${e.date} UTC · ${x2(e.mult_15m)} 15m</span><span class="h">${esc(e.headline)}</span></button>`;}).join("");
+evList.addEventListener('click',e=>{const b=e.target.closest('button'); if(!b) return; cur=+b.dataset.i; [...evList.children].forEach(x=>x.setAttribute('aria-current',x===b)); renderReplay();});
+document.getElementById('repSeg').innerHTML=[1,5,15].map(m=>`<button type="button" data-m="${m}" aria-pressed="${m===repTF}">${m}m</button>`).join("");
+document.getElementById('repSeg').addEventListener('click',e=>{const b=e.target.closest('button'); if(!b) return; repTF=+b.dataset.m; [...e.currentTarget.children].forEach(x=>x.setAttribute('aria-pressed',x===b)); renderReplay();});
+function agg(c,m){ if(m===1) return c; const out=[]; for(const k of c){ const b=Math.floor(k[0]/(60*m))*60*m; const l=out[out.length-1]; if(l&&l[0]===b){ l[2]=Math.max(l[2],k[2]); l[3]=Math.min(l[3],k[3]); l[4]=k[4]; } else out.push([b,k[1],k[2],k[3],k[4]]); } return out; }
+let repGeom=null;
+function renderReplay(){
+  const e=D.top_events[cur], f=famOf(e.cat);
+  const r = (k)=> e[k]==null?"–":((e[k]>=0?"+":"")+(e[k]*100).toFixed(2)+"%");
+  document.getElementById('evHead').innerHTML=`<div class="t mono note"><span class="catname" style="min-width:0"><i class="dot" style="background:var(${f.c})"></i>${esc(e.cat)} · ${e.date} UTC · ${toIST(e.date)} IST</span></div>
+   <div class="hl">${esc(e.headline)}</div>
+   <div class="kv"><span>15m range <b>$${e.move15_usd.toFixed(2)}</b></span><span>5m <b>${x2(e.mult_5m)}</b></span><span>15m <b>${x2(e.mult_15m)}</b></span><span>1h <b>${x2(e.mult_1h)}</b></span><span>4h <b>${x2(e.mult_4h)}</b></span><span>two-way sweep 1h <b>${pct(e.whip_1h)}</b></span><span>net 15m <b>${r("ret_15m")}</b> · 1h <b>${r("ret_1h")}</b> · 4h <b>${r("ret_4h")}</b></span><span>5m before headline <b>${x2(e.pre_mult_5m)}</b> normal</span></div>`;
+  const cv=document.getElementById('rep'), dpr=window.devicePixelRatio||1, W=cv.clientWidth, H=380;
+  cv.width=W*dpr; cv.height=H*dpr; const g=cv.getContext('2d'); g.setTransform(dpr,0,0,dpr,0,0); g.clearRect(0,0,W,H);
+  const c=agg(e.candles, repTF); const pl=8, pr=62, pt=10, pb=24, iw=W-pl-pr, ih=H-pt-pb;
+  const hi=Math.max(...c.map(k=>k[2])), lo=Math.min(...c.map(k=>k[3])), pad=(hi-lo)*.06; const yH=hi+pad, yL=lo-pad;
+  const Y=v=>pt+ih*(yH-v)/(yH-yL), step=iw/c.length, X=i=>pl+step*i+step/2;
+  g.font="11px "+css('--mono'); g.fillStyle=css('--muted'); g.strokeStyle=css('--grid'); g.lineWidth=1;
+  const nt=5; for(let i=0;i<=nt;i++){ const v=yL+(yH-yL)*i/nt, y=Math.round(Y(v))+.5; g.beginPath(); g.moveTo(pl,y); g.lineTo(W-pr,y); g.stroke(); g.fillText(v.toFixed(0), W-pr+6, y+4); }
+  // headline marker
+  const ai=c.findIndex(k=>k[0]+60*repTF>e.anchor+60); const ax=X(Math.max(0,ai));
+  g.strokeStyle=css('--brass'); g.lineWidth=1.5; g.setLineDash([4,3]); g.beginPath(); g.moveTo(ax,pt); g.lineTo(ax,pt+ih); g.stroke(); g.setLineDash([]);
+  const p0y=Math.round(Y(e.p0))+.5; g.strokeStyle=css('--muted'); g.lineWidth=1; g.setLineDash([2,3]); g.beginPath(); g.moveTo(pl,p0y); g.lineTo(W-pr,p0y); g.stroke(); g.setLineDash([]);
+  const bw=Math.max(1, Math.min(10, step*.68));
+  c.forEach((k,i)=>{ const up=k[4]>=k[1]; const col=up?css('--up'):css('--down'); const x=X(i); g.strokeStyle=col; g.fillStyle=col; g.beginPath(); g.moveTo(Math.round(x)+.5,Y(k[2])); g.lineTo(Math.round(x)+.5,Y(k[3])); g.stroke(); const yt=Y(Math.max(k[1],k[4])), yb=Y(Math.min(k[1],k[4])); g.fillRect(x-bw/2, yt, bw, Math.max(1,yb-yt)); });
+  // time ticks
+  g.fillStyle=css('--muted'); const every=Math.ceil(c.length/7);
+  c.forEach((k,i)=>{ if(i%every) return; const d=new Date(k[0]*1000); const s=d.toISOString().slice(11,16); g.fillText(s, X(i)-14, H-6); });
+  repGeom={c,X,Y,step,pl,pr,pt,ih,W,H,e};
+}
+const repBox=document.getElementById('repBox'), repTip=document.getElementById('repTip'), cvs=document.getElementById('rep');
+cvs.addEventListener('mousemove',ev=>{ if(!repGeom) return; const r=cvs.getBoundingClientRect(); const x=ev.clientX-r.left; const i=Math.floor((x-repGeom.pl)/repGeom.step); const k=repGeom.c[i]; if(!k){repTip.hidden=true; return;}
+  const d=new Date(k[0]*1000).toISOString().slice(0,16).replace("T"," "); const ch=(k[4]/repGeom.e.p0-1)*100;
+  repTip.innerHTML=`${d} UTC<br>O ${k[1].toFixed(2)} H ${k[2].toFixed(2)}<br>L ${k[3].toFixed(2)} C ${k[4].toFixed(2)}<br>vs headline price ${ch>=0?"+":""}${ch.toFixed(2)}%`; repTip.hidden=false;
+  const tw=repTip.offsetWidth; repTip.style.left=Math.min(r.width-tw, x+14)+"px"; repTip.style.top="12px"; });
+cvs.addEventListener('mouseleave',()=>repTip.hidden=true);
+
+// ---------- heatmap ----------
+function renderHeat(){
+  const days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]; const rows=D.heat.rows; const flat=rows.flat().filter(v=>v!=null).sort((a,b)=>a-b);
+  const lo=flat[Math.floor(flat.length*.05)], hi=flat[Math.floor(flat.length*.97)];
+  let h=`<div class="lab"></div>`+[...Array(24).keys()].map(i=>`<div class="lab">${i%3===0?String(i).padStart(2,'0'):''}</div>`).join("");
+  D.heat.days.forEach((d,ri)=>{ h+=`<div class="lab">${days[d]}</div>`; rows[ri].forEach((v,hr)=>{ const t=Math.max(0,Math.min(1,(v-lo)/(hi-lo))); const i=Math.round(t*7); h+=`<div style="background:var(${ramp[i]})" data-tip="${days[d]} ${String(hr).padStart(2,'0')}:00 UTC (${toIST("2000-01-01 "+String(hr).padStart(2,'0')+":00")} IST)<br>avg 1m range <b>${v==null?'–':v.toFixed(1)} bp</b><br>headlines/day this hour ${D.news_by_hour[hr]??0}"></div>`; }); });
+  const el=document.getElementById('heat'); el.innerHTML=h;
+  document.getElementById('heatRamp').innerHTML=ramp.map(v=>`<i style="background:var(${v})"></i>`).join("");
+  document.getElementById('heatScale').textContent=`(${lo.toFixed(1)} → ${hi.toFixed(1)} bp; hours in UTC, IST = UTC+5:30)`;
+  const box=el.parentElement; box.style.position='relative';
+  el.addEventListener('mousemove',e=>{ const c=e.target.closest('[data-tip]'); const r=box.getBoundingClientRect(); if(c) showTip(box,c.dataset.tip,e.clientX-r.left,e.clientY-r.top); else hideTip(box); });
+  el.addEventListener('mouseleave',()=>hideTip(box));
+}
+renderHeat();
+
+// ---------- daily price + monthly shocks ----------
+function renderPrice(){
+  const box=document.getElementById('priceBox'), W=Math.max(320,box.clientWidth), H=170, pl=46, pr=8, pt=8, pb=20;
+  const d=D.daily; const xs=d.map(k=>k[0]), cl=d.map(k=>k[4]); const x0=xs[0], x1=xs[xs.length-1];
+  const lo=Math.min(...d.map(k=>k[3])), hi=Math.max(...d.map(k=>k[2]));
+  const X=t=>pl+(W-pl-pr)*(t-x0)/(x1-x0), Y=v=>pt+(H-pt-pb)*(hi-v)/(hi-lo);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="XAUUSDT daily close with marked shock events">`;
+  const step=Math.pow(10,Math.floor(Math.log10((hi-lo)/3))); const st=Math.ceil((hi-lo)/4/step)*step;
+  for(let v=Math.ceil(lo/st)*st; v<=hi; v+=st){ s+=`<line x1="${pl}" x2="${W-pr}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/><text x="${pl-6}" y="${Y(v)+4}" text-anchor="end">${v.toFixed(0)}</text>`; }
+  s+=`<path d="${d.map((k,i)=>`${i?'L':'M'}${X(k[0]).toFixed(1)},${Y(k[4]).toFixed(1)}`).join("")}" fill="none" stroke="var(--ink2)" stroke-width="2"/>`;
+  D.top_events.forEach((e,i)=>{ const t=Date.parse(e.date.replace(" ","T")+":00Z")/1000; const day=d.reduce((a,k)=>Math.abs(k[0]-t)<Math.abs(a[0]-t)?k:a); const f=famOf(e.cat);
+    s+=`<circle cx="${X(t)}" cy="${Y(day[4])}" r="5" fill="var(${f.c})" stroke="var(--panel)" stroke-width="2" data-tip="${e.date} UTC · ${esc(e.cat)}<br>${esc(e.headline.slice(0,90))}<br>15m range ${x2(e.mult_15m)} normal"/>`; });
+  s+=`</svg>`; box.innerHTML=s; bindTips(box);
+}
+function renderMonth(){
+  const box=document.getElementById('monthBox'), W=Math.max(320,box.clientWidth), H=230, pl=46, pr=8, pt=10, pb=24;
+  const mo=D.monthly; const series=mo.months.map((m,i)=>FAM.map(f=>f.cats.reduce((a,c)=>{const j=mo.cats.indexOf(c); return a+(j>=0?mo.data[i][j]:0);},0)));
+  const mx=Math.ceil(Math.max(...series.map(s=>s.reduce((a,b)=>a+b,0)))/20)*20;
+  const iw=W-pl-pr, ih=H-pt-pb, gw=iw/mo.months.length, bw=Math.min(40,gw*.62);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="Monthly count of news shocks by family">`;
+  for(let v=0; v<=mx; v+=mx/4){ const y=pt+ih*(1-v/mx); s+=`<line x1="${pl}" x2="${W-pr}" y1="${y}" y2="${y}" stroke="var(--grid)"/><text x="${pl-6}" y="${y+4}" text-anchor="end">${v}</text>`; }
+  series.forEach((vals,i)=>{ const x=pl+gw*i+(gw-bw)/2; let y=pt+ih; const tot=vals.reduce((a,b)=>a+b,0); const top=vals.map((v,j)=>v?j:-1).filter(j=>j>=0).pop();
+    vals.forEach((v,j)=>{ if(!v) return; const h=ih*v/mx; const yy=y-h; const gap=j===top?0:0;
+      if(j===top){ s+=`<path d="M${x},${y} V${yy+3} Q${x},${yy} ${x+3},${yy} H${x+bw-3} Q${x+bw},${yy} ${x+bw},${yy+3} V${y} Z" fill="var(${FAM[j].c})"/>`; }
+      else s+=`<rect x="${x}" y="${yy+1}" width="${bw}" height="${Math.max(0,h-2)}" fill="var(${FAM[j].c})"/>`;
+      y=yy; });
+    const tip=`${mo.months[i]} · ${tot} shocks<br>`+FAM.map((f,j)=>vals[j]?`${f.name}: <b>${vals[j]}</b>`:'').filter(Boolean).join("<br>");
+    s+=`<rect x="${pl+gw*i}" y="${pt}" width="${gw}" height="${ih}" fill="transparent" data-tip="${tip}"/>`;
+    s+=`<text x="${pl+gw*i+gw/2}" y="${H-7}" text-anchor="middle">${mo.months[i].slice(2).replace('-','/')}</text>`; });
+  s+=`<line x1="${pl}" x2="${W-pr}" y1="${pt+ih}" y2="${pt+ih}" stroke="var(--axis)"/></svg>`;
+  box.innerHTML=s; bindTips(box);
+  document.getElementById('famLegend').innerHTML=FAM.map(f=>`<span><i class="sw" style="background:var(${f.c})"></i>${f.name}</span>`).join("");
+}
+
+// ---------- rules ----------
+const iran=cs["Iran / Middle East war"], jobs=cs["US jobs (NFP/claims/JOLTS/ADP)"], fedp=cs["Fed chair / Fed independence politics"], lag=cs["Gold price report (lagging)"];
+document.getElementById('rules').innerHTML=[
+ `<b>Stand aside around CPI/PPI, NFP and FOMC.</b> CPI/PPI releases ran ${x2(cpi.mult_15m)} the normal 15m range and FOMC ${x2(fomc.mult_15m)}. ${pct(cpi.shock_15m)} of CPI/PPI prints and ${pct(fomc.shock_15m)} of FOMC events went 3× or more. Be flat from 5 minutes before to at least 30 minutes after (12:30 or 13:30 UTC for data, 18:00 or 19:00 UTC for FOMC, depending on US daylight saving).`,
+ `<b>If you must hold through a release, size the stop for it.</b> A 1×ATR(15m) stop on either side was taken out in ${pct(S.dsweep_15m)} of scheduled releases, against ${pct(B.dsweep_15m)} at random. Use at least 2× the 15m ATR, or cut size so that stop costs what a normal one does.`,
+ `<b>Jobs data sweeps both sides fastest.</b> After NFP, claims and JOLTS, stops 1×ATR(5m) above and below were both hit within 15 minutes in ${pct(jobs.dsweep_5m)} of releases, against ${pct(B.dsweep_5m)} at random, the highest of any group. The first 5-minute direction then flipped by the 1-hour close ${pct(jobs.fade)} of the time. Don't chase the first candle; wait for the 15m close.`,
+ `<b>Iran and Middle East headlines are a constant drip, not single events.</b> ${fmtN(iran.events)} events, each mild on its own (${x2(iran.mult_15m)} on 15m), but ${pct(iran.shock_15m)} still hit 3×, against ${pct(B.shock_15m)} at random. During active escalation weeks, treat every hour as event risk: wider stops, smaller size, no tight scalps.`,
+ `<b>Fed-chair and Fed-independence stories move gold like a data release.</b> ${x2(fedp.mult_1h)} the normal 1h range and a ${pct(fedp.shock_1h)} 1h shock rate. Trump comments on Powell, Warsh or Hassett belong on the risk calendar.`,
+ `<b>The headline is late.</b> "Spot gold falls/rises" posts show the move has already happened (the minute before the post ran ${x2(lag.mult_1m)} its normal range). On unscheduled news the 5 minutes before the headline already run ${x2(U.pre_mult_5m)} normal. A relay feed can warn you to protect a position. It cannot get you in early.`,
+ `<b>Don't build stops off the 1m chart.</b> Only ${pct(SS["1m"].pct_spikes_with_news)} of 1m spike candles had a headline, below the ${pct(SS["1m"].base_rate_news)} base rate. They are liquidity gaps, often at the 22:00–01:00 UTC reopen (03:30–06:30 IST). Anchor stops to 15m or 1h structure, where news explains ${pct(SS["15m"].pct_spikes_with_news)}–${pct(SS["1h"].pct_spikes_with_news)} of the spikes.`,
+].map(t=>`<div class="rule"><p>${t}</p></div>`).join("");
+
+function renderAll(){ renderLift(); renderHour(); renderReplay(); renderPrice(); renderMonth(); }
+renderAll();
+let rz; addEventListener('resize',()=>{clearTimeout(rz); rz=setTimeout(renderAll,120);});
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{renderAll(); renderCat();});
+new MutationObserver(()=>{renderAll(); renderCat();}).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+</script>

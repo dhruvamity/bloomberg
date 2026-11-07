@@ -1,0 +1,1218 @@
+time,kz,level,price,dir,bias,outcome,entry,sl,tp,tp_name,risk,placed,mss_level,sweep_ext,result,filled,exit,exit_price,R,R_net,mfe_R,mae_R,variant
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3926.13,1hSH,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3926.13,3.05,2.76,3.36,0.48,1min|4h|KZ|ce|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|ce|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3968.83,AsiaH,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|4h|KZ|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|liq
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3919.03,2.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:30:00+00:00,3919.03,2.0,1.71,2.23,0.48,1min|4h|KZ|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3914.03,2.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3925.77,3.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3925.77,3.0,2.71,3.36,0.48,1min|4h|KZ|ce|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3917.38,3.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|ce|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.13,1hSH,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.13,2.94,2.66,3.24,0.49,1min|4h|KZ|prox|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|prox|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3968.83,AsiaH,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|4h|KZ|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|liq
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3919.62,2.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:30:00+00:00,3919.62,2.0,1.72,2.14,0.49,1min|4h|KZ|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3915.8,2.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.55,3.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.55,3.0,2.72,3.24,0.49,1min|4h|KZ|prox|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3919.74,3.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|KZ|prox|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3926.13,1hSH,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3926.13,3.05,2.76,3.36,0.48,1min|4h|24h|ce|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3968.83,AsiaH,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3919.03,2.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:30:00+00:00,3919.03,2.0,1.71,2.23,0.48,1min|4h|24h|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3914.03,2.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3925.77,3.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3925.77,3.0,2.71,3.36,0.48,1min|4h|24h|ce|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3917.38,3.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.13,1hSH,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.13,2.94,2.66,3.24,0.49,1min|4h|24h|prox|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3968.83,AsiaH,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3919.62,2.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:30:00+00:00,3919.62,2.0,1.72,2.14,0.49,1min|4h|24h|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3915.8,2.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.55,3.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.55,3.0,2.72,3.24,0.49,1min|4h|24h|prox|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3919.74,3.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 13:46:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,1min|4h|24h|prox|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3926.13,1hSH,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3926.13,3.05,2.76,3.36,0.48,1min|nobias|KZ|ce|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3968.83,AsiaH,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|nobias|KZ|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3959.3,3979.67,3904.32,LonL,20.37,2026-11-03 14:12:00+00:00,3959.43,3979.0,not filled (expired),,,,,,,,1min|nobias|KZ|ce|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3919.03,2.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:30:00+00:00,3919.03,2.0,1.71,2.23,0.48,1min|nobias|KZ|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3914.03,2.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3959.3,3979.67,3918.55,2.0R,20.37,2026-11-03 14:12:00+00:00,3959.43,3979.0,not filled (expired),,,,,,,,1min|nobias|KZ|ce|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3925.77,3.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3925.77,3.0,2.71,3.36,0.48,1min|nobias|KZ|ce|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3917.38,3.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|nobias|KZ|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|ce|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3959.3,3979.67,3898.18,3.0R,20.37,2026-11-03 14:12:00+00:00,3959.43,3979.0,not filled (expired),,,,,,,,1min|nobias|KZ|ce|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.13,1hSH,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.13,2.94,2.66,3.24,0.49,1min|nobias|KZ|prox|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3968.83,AsiaH,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|nobias|KZ|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3958.54,3979.67,3904.32,LonL,21.13,2026-11-03 14:12:00+00:00,3959.43,3979.0,TIME EXIT,2026-11-03 14:12:00+00:00,2026-11-03 21:00:00+00:00,3928.04,1.44,1.35,1.57,0.03,1min|nobias|KZ|prox|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3919.62,2.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:30:00+00:00,3919.62,2.0,1.72,2.14,0.49,1min|nobias|KZ|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3915.8,2.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|nobias|KZ|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3958.54,3979.67,3916.27,2.0R,21.13,2026-11-03 14:12:00+00:00,3959.43,3979.0,TIME EXIT,2026-11-03 14:12:00+00:00,2026-11-03 21:00:00+00:00,3928.04,1.44,1.35,1.57,0.03,1min|nobias|KZ|prox|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.55,3.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.55,3.0,2.72,3.24,0.49,1min|nobias|KZ|prox|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3919.74,3.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|nobias|KZ|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|KZ|prox|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3958.54,3979.67,3895.14,3.0R,21.13,2026-11-03 14:12:00+00:00,3959.43,3979.0,TIME EXIT,2026-11-03 14:12:00+00:00,2026-11-03 21:00:00+00:00,3928.04,1.44,1.35,1.57,0.03,1min|nobias|KZ|prox|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3926.13,1hSH,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3926.13,3.05,2.76,3.36,0.48,1min|nobias|24h|ce|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3968.83,AsiaH,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3959.3,3979.67,3904.32,LonL,20.37,2026-11-03 14:12:00+00:00,3959.43,3979.0,not filled (expired),,,,,,,,1min|nobias|24h|ce|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4052.14,4057.77,4022.73,LonL,5.63,2026-11-04 10:32:00+00:00,4051.06,4057.35,LOSS,2026-11-04 10:35:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.36,2.36,1.2,1min|nobias|24h|ce|liq
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,nearest target 1hSL only 1.0R,,,,,,,,,,,,,,,,,1min|nobias|24h|ce|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3919.03,2.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:30:00+00:00,3919.03,2.0,1.71,2.23,0.48,1min|nobias|24h|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3914.03,2.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3959.3,3979.67,3918.55,2.0R,20.37,2026-11-03 14:12:00+00:00,3959.43,3979.0,not filled (expired),,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4052.14,4057.77,4040.87,2.0R,5.63,2026-11-04 10:32:00+00:00,4051.06,4057.35,WIN,2026-11-04 10:35:00+00:00,2026-11-04 12:12:00+00:00,4040.87,2.0,1.64,2.24,0.65,1min|nobias|24h|ce|2.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,order,4069.96,4077.84,4054.19,2.0R,7.88,2026-11-05 00:05:00+00:00,4069.87,4077.59,,,,,,,,,1min|nobias|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.56,3898.82,3925.77,3.0R,6.74,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:41:00+00:00,2026-11-02 13:37:00+00:00,3925.77,3.0,2.71,3.36,0.48,1min|nobias|24h|ce|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.34,3903.99,3917.38,3.0R,3.35,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3959.3,3979.67,3898.18,3.0R,20.37,2026-11-03 14:12:00+00:00,3959.43,3979.0,not filled (expired),,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4052.14,4057.77,4035.24,3.0R,5.63,2026-11-04 10:32:00+00:00,4051.06,4057.35,LOSS,2026-11-04 10:35:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.36,2.36,1.2,1min|nobias|24h|ce|3.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,order,4069.96,4077.84,4046.3,3.0R,7.88,2026-11-05 00:05:00+00:00,4069.87,4077.59,,,,,,,,,1min|nobias|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.13,1hSH,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.13,2.94,2.66,3.24,0.49,1min|nobias|24h|prox|liq
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3968.83,AsiaH,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3958.54,3979.67,3904.32,LonL,21.13,2026-11-03 14:12:00+00:00,3959.43,3979.0,TIME EXIT,2026-11-03 14:12:00+00:00,2026-11-03 21:00:00+00:00,3928.04,1.44,1.35,1.57,0.03,1min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4051.73,4057.77,4022.73,LonL,6.04,2026-11-04 10:32:00+00:00,4051.06,4057.35,LOSS,2026-11-04 10:32:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.34,2.13,1.19,1min|nobias|24h|prox|liq
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,nearest target 1hSL only 1.0R,,,,,,,,,,,,,,,,,1min|nobias|24h|prox|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3919.62,2.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:30:00+00:00,3919.62,2.0,1.72,2.14,0.49,1min|nobias|24h|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3915.8,2.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (ran to target),,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3958.54,3979.67,3916.27,2.0R,21.13,2026-11-03 14:12:00+00:00,3959.43,3979.0,TIME EXIT,2026-11-03 14:12:00+00:00,2026-11-03 21:00:00+00:00,3928.04,1.44,1.35,1.57,0.03,1min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4051.73,4057.77,4039.64,2.0R,6.04,2026-11-04 10:32:00+00:00,4051.06,4057.35,WIN,2026-11-04 10:32:00+00:00,2026-11-04 12:12:00+00:00,4039.64,2.0,1.66,2.02,0.68,1min|nobias|24h|prox|2.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,order,4069.77,4077.84,4053.63,2.0R,8.07,2026-11-05 00:05:00+00:00,4069.87,4077.59,,,,,,,,,1min|nobias|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-02 08:19:00+00:00,London,AsiaL,3900.23,LONG,1.0,order,3905.75,3898.82,3926.55,3.0R,6.93,2026-11-02 08:40:00+00:00,3905.98,3899.18,WIN,2026-11-02 08:40:00+00:00,2026-11-02 13:37:00+00:00,3926.55,3.0,2.72,3.24,0.49,1min|nobias|24h|prox|3.0
+2026-11-02 13:37:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 02:08:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 05:02:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 09:04:00+00:00,London,1hSL,3904.52,LONG,1.0,order,3907.93,3903.99,3919.74,3.0R,3.94,2026-11-03 09:07:00+00:00,3908.2,3904.32,not filled (expired),,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-03 13:46:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,order,3958.54,3979.67,3895.14,3.0R,21.13,2026-11-03 14:12:00+00:00,3959.43,3979.0,TIME EXIT,2026-11-03 14:12:00+00:00,2026-11-03 21:00:00+00:00,3928.04,1.44,1.35,1.57,0.03,1min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 05:34:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 05:34:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4051.73,4057.77,4033.6,3.0R,6.04,2026-11-04 10:32:00+00:00,4051.06,4057.35,LOSS,2026-11-04 10:32:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.34,2.13,1.19,1min|nobias|24h|prox|3.0
+2026-11-04 16:37:00+00:00,,1hSH,4059.49,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,order,4069.77,4077.84,4045.56,3.0R,8.07,2026-11-05 00:05:00+00:00,4069.87,4077.59,,,,,,,,,1min|nobias|24h|prox|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|ce|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|KZ|prox|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,3min|4h|24h|prox|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|ce|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|KZ|prox|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4051.38,4057.77,4022.73,LonL,6.38,2026-11-04 10:48:00+00:00,4048.67,4057.35,LOSS,2026-11-04 10:55:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.32,1.97,1.18,3min|nobias|24h|ce|liq
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,order,4137.62,4144.81,4121.51,LonL,7.2,2026-11-05 12:09:00+00:00,4133.31,4144.46,OPEN (marked),2026-11-05 12:12:00+00:00,2026-11-05 13:11:00+00:00,4124.16,1.87,1.58,2.14,0.04,3min|nobias|24h|ce|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4051.38,4057.77,4038.62,2.0R,6.38,2026-11-04 10:48:00+00:00,4048.67,4057.35,LOSS,2026-11-04 10:55:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.32,1.97,1.18,3min|nobias|24h|ce|2.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,order,4137.62,4144.81,4123.22,2.0R,7.2,2026-11-05 12:09:00+00:00,4133.31,4144.46,WIN,2026-11-05 12:12:00+00:00,2026-11-05 12:37:00+00:00,4123.22,2.0,1.71,2.01,0.04,3min|nobias|24h|ce|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4051.38,4057.77,4032.23,3.0R,6.38,2026-11-04 10:48:00+00:00,4048.67,4057.35,LOSS,2026-11-04 10:55:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.32,1.97,1.18,3min|nobias|24h|ce|3.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|ce|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,order,4137.62,4144.81,4116.02,3.0R,7.2,2026-11-05 12:09:00+00:00,4133.31,4144.46,OPEN (marked),2026-11-05 12:12:00+00:00,2026-11-05 13:11:00+00:00,4124.16,1.87,1.58,2.14,0.04,3min|nobias|24h|ce|3.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4050.39,4057.77,4022.73,LonL,7.38,2026-11-04 10:48:00+00:00,4048.67,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.27,1.57,1.15,3min|nobias|24h|prox|liq
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,nearest target LonL only 1.5R,,,,,,,,,,,,,,,,,3min|nobias|24h|prox|liq
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4050.39,4057.77,4035.63,2.0R,7.38,2026-11-04 10:48:00+00:00,4048.67,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.27,1.57,1.15,3min|nobias|24h|prox|2.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,order,4135.34,4144.81,4116.39,2.0R,9.47,2026-11-05 12:09:00+00:00,4133.31,4144.46,OPEN (marked),2026-11-05 12:10:00+00:00,2026-11-05 13:11:00+00:00,4124.16,1.18,0.96,1.38,0.27,3min|nobias|24h|prox|2.0
+2026-11-02 05:36:00+00:00,,WkndH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,AsiaH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-02 05:36:00+00:00,,1hSH,3922.0,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-02 08:18:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-02 13:36:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 02:06:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 03:21:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 09:03:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 12:24:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-03 19:12:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 05:33:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 05:33:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 05:54:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 06:18:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4050.39,4057.77,4028.25,3.0R,7.38,2026-11-04 10:48:00+00:00,4048.67,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.27,1.57,1.15,3min|nobias|24h|prox|3.0
+2026-11-04 16:36:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-04 23:51:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,3min|nobias|24h|prox|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,order,4135.34,4144.81,4106.92,3.0R,9.47,2026-11-05 12:09:00+00:00,4133.31,4144.46,OPEN (marked),2026-11-05 12:10:00+00:00,2026-11-05 13:11:00+00:00,4124.16,1.18,0.96,1.38,0.27,3min|nobias|24h|prox|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|ce|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|KZ|prox|3.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|liq
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|2.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|ce|3.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|liq
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|2.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,against 4h bias,,,,,,,,,,,,,,,,,5min|4h|24h|prox|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|ce|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|KZ|prox|3.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4050.07,4057.77,4022.73,LonL,7.7,2026-11-04 10:50:00+00:00,4048.35,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.26,1.46,1.15,5min|nobias|24h|ce|liq
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|liq
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4050.07,4057.77,4034.67,2.0R,7.7,2026-11-04 10:50:00+00:00,4048.35,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.26,1.46,1.15,5min|nobias|24h|ce|2.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|2.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4050.07,4057.77,4026.97,3.0R,7.7,2026-11-04 10:50:00+00:00,4048.35,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.26,1.46,1.15,5min|nobias|24h|ce|3.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|ce|3.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4049.78,4057.77,4022.73,LonL,7.99,2026-11-04 10:50:00+00:00,4048.35,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.25,1.37,1.14,5min|nobias|24h|prox|liq
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|liq
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4049.78,4057.77,4033.8,2.0R,7.99,2026-11-04 10:50:00+00:00,4048.35,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.25,1.37,1.14,5min|nobias|24h|prox|2.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|2.0
+2026-11-02 05:35:00+00:00,,WkndH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-02 05:35:00+00:00,,AsiaH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-02 05:35:00+00:00,,1hSH,3922.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-02 08:15:00+00:00,London,AsiaL,3900.23,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-02 13:30:00+00:00,,LonH,3917.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-02 13:35:00+00:00,,1hSH,3926.13,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 02:05:00+00:00,,1hSL,3951.07,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 03:20:00+00:00,,1hSL,3946.62,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 05:00:00+00:00,,AsiaL,3930.35,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 09:00:00+00:00,London,1hSL,3904.52,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 12:20:00+00:00,NY AM,LonH,3922.7,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,AsiaH,3968.83,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 13:30:00+00:00,NY AM,1hSH,3972.1,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,PDH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 13:45:00+00:00,NY AM,1hSH,3977.95,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-03 19:10:00+00:00,,1hSL,3932.0,LONG,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,PDH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,AsiaH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3979.0,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 05:30:00+00:00,,1hSH,3972.03,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 05:50:00+00:00,,1hSH,4008.36,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 06:15:00+00:00,,1hSH,4021.99,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 10:15:00+00:00,,LonH,4055.72,SHORT,1.0,order,4049.78,4057.77,4025.81,3.0R,7.99,2026-11-04 10:50:00+00:00,4048.35,4057.35,LOSS,2026-11-04 10:50:00+00:00,2026-11-04 12:32:00+00:00,4057.77,-1.0,-1.25,1.37,1.14,5min|nobias|24h|prox|3.0
+2026-11-04 16:35:00+00:00,,1hSH,4059.49,,,no reclaim (real breakout),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-04 23:50:00+00:00,,1hSH,4077.16,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
+2026-11-05 11:15:00+00:00,,LonH,4140.73,SHORT,1.0,no MSS (sweep failed to shift structure),,,,,,,,,,,,,,,,,5min|nobias|24h|prox|3.0
